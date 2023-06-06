@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background-color: lightcyan;
+    text-align: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+}
+.box{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 520px;
+}
+#box1a{
+    background-color: lightcyan;
+}
+.boxL {
+    height: 0px;
+    width: 100px;
+    background-color: lightcoral;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.boxLa {
+    height: 100px;
+    width: 100px;
+    background-color: lightcyan;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.inp {
+    margin-top: 140px;
+    height: 60px;
+    width: 300px;
+    border: 2px solid balck;
+}
+#btn {
+    margin-top: 60px;
+}
